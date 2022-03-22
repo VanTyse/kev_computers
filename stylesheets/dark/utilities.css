@@ -1,0 +1,96 @@
+.underline-container{
+    width: 100%;
+    border-radius: 5px;
+    height: 5px;
+}
+
+.underline{
+    background-color: #0052CC;
+    width: 45%;
+    height: 100%;
+    border-radius: 5px;
+}
+.heading{
+    width: fit-content;
+}
+
+video{
+    max-width: 100%;
+    height: auto;
+}
+
+.sun, .moon{
+    font-size: 20px;
+    color: white;
+}
+
+.sun{
+    display: none;
+}
+
+.moon{
+
+}
+
+.toggle-theme{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.toggle-theme:hover{
+    cursor: pointer;
+}
+
+.toggle-theme:active{
+    transform: scale(1.1);
+}
+.toggle-subscription{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.toggle-subscription:hover{
+    cursor: pointer;
+}
+
+.toggle-subscription:active{
+    transform: scale(1.1);
+}
+
+
+.envelope{
+    font-size: 20px;
+    color: white;
+}
+
+.subscription-transition{
+    background-color: #000;
+    opacity: 0.9;
+    padding: 30px;
+    position: fixed;
+    bottom: 50%;
+    right: -100%;
+    transform: translate(50%, 50%);
+    width: 86%;
+    box-shadow: 0px 0px 3px 3px #282828;
+    transition-duration: 1000ms;
+    max-width: 800px;
+}

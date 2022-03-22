@@ -1,0 +1,265 @@
+.intro-text{
+    font-size: 3.5vw;
+    color: #0052CC;
+}
+
+html{
+    transition-duration: 1000ms;
+}
+
+body{
+    background-color: #121212;
+}
+
+.heading{
+    width: fit-content;
+    color: lightgray;
+}
+
+h5{
+    font-weight: 500;
+    /* font-size: 14px; */
+    font-size: 16px;
+    color: #5E6C84;
+}
+
+.intro-image{
+    width: 120%;
+}
+
+.underline-container{
+    width: 100%;
+    border-radius: 5px;
+    height: 5px;
+}
+
+.underline{
+    background-color: #0052CC;
+    width: 45%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.architecture{
+    background-color: #404040;
+    padding-top: 20px;
+}
+
+.architectural-image{
+    width: 200px;
+    height: auto;
+    border: 1px solid #f8f9fa;
+    border-radius: 3px;
+}
+
+.microsoft-office-section{
+    /* background: url("/images/microsoft-office-how-tos-tutorials.jpg"); */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ms-access-image{
+    max-width: 100%;
+}
+
+#ms-card-1, #ms-card-2, #ms-card-3{
+    background-color: #282828;
+    color: #dee2e6;
+}
+
+#architecture-card-1, #architecture-card-2, #architecture-card-3{
+    background-color: #282828;
+    color: #dee2e6;
+}
+
+.training-card{
+    background-color: #282828;
+    color: #dee2e6;
+}
+
+.read-more, .subscribe{
+    background-color: #0052CC;
+    color: white;
+}
+
+.read-more:hover{
+    background-color: black;
+}
+
+.change:hover{
+    transform:scale(1.09);
+    transition-duration: 700ms;
+    mask-image: linear-gradient(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.animation-scale:hover{
+    transform: scale(1.09);
+    transition-duration: 1000ms;
+}
+
+.team .card{
+    color: #dee2e6;
+}
+
+
+.btns{
+    height: 50px;
+    width: fit-content;
+    background-color: red;
+    border: none;
+}
+
+.left{
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: red;
+}
+
+
+.right{
+    height: 50px;
+    width: 50px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: red;
+}
+.rounded-btn{
+    width: auto;
+    display: flex;
+}
+
+.team{
+    background-color: #404040;
+}
+
+.team h4{
+    color: #0052CC;
+}
+
+.team .card{
+    background-color: #404040;
+    box-shadow: 0px 0px 3px 3px #f8f9fa;
+}
+
+.border-img{
+    border: 3px double #f4f4f4;
+}
+
+#subscription-form{
+    padding: 20px 0;
+}
+
+#subscription-form fieldset{
+    display: flex;
+    border: 2px double #f4f5f7;
+    margin: auto;
+}
+
+.sub-input{
+    font-size: 18px;
+    border: none;
+    color: #dee2e6;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: #404040;
+    width: 50%;
+}
+
+.reviews{
+    position: relative;
+    padding: 20px 20px;
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: #282828;
+}
+
+.review-container{
+    display: flex;
+    position: relative;
+    width: 86%;
+    max-width: 700px;
+    height: 330px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.review{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 1000ms;
+    /* height: 300px; */
+}
+
+.review-img{
+    box-shadow: 1px 1px 2px 2px cyan;
+    display: block;
+    margin: 10px auto;
+}
+
+.review-name{
+    text-align: center;
+    color: #0052CC;
+}
+
+.review-quote{
+    text-align: center;
+    color: #dee2e6;
+}
+
+.quote-container{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn-icon-left, .btn-icon-right{
+    border: none;
+    font-size: 30px;
+    background: none;
+    /* background-color: #0052CC; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* .btn-icon-left{
+} */
+
+.btn-icon-right{
+    right: 0;
+}
+
+.reviews .nextSlide{
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.reviews .activeSlide{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.reviews .prevSlide{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.quote-icon{
+    font-size: 72px;
+    color: rgb(241, 68, 68);
+}
+
+
+@media screen and (max-width : 768px) {
+    .sub-input{
+        width: 100%;
+    }
+    .subscribe{
+        display: block;
+        margin-top: 10px;
+    }
+}

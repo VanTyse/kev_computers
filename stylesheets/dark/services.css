@@ -1,0 +1,24 @@
+.services-list{
+    background-color: #fff4c2;
+}
+
+body{
+    background-color: #f4f5f7;
+}
+
+.services-list li{
+    font-size: 18x;
+    margin-bottom: 20px;
+}
+
+.architectural-image{
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.read-more{
+    background-color: #0052CC;
+    color: white;
+}
