@@ -44,7 +44,7 @@ themeTogglerButton.addEventListener('click', () => {
         themeLinks.forEach((themeLink) => {
             const href = themeLink.href
             console.log(href);
-            const linkName = href.slice(42, -4);
+            const linkName = href.slice(53, -4);
             console.log(linkName);
             
             themeLink.href= `../stylesheets/dark/${linkName}.css`
