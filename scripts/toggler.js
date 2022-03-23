@@ -18,7 +18,7 @@ console.log(currentTheme, darkTheme);
 if (currentTheme === 'true') {
     themeLinks.forEach(( themeLink ) => {
         const href = themeLink.href
-        const linkName = href.slice(42, -4);
+        const linkName = href.slice(53, -4);
         
         themeLink.href= `../stylesheets/dark/${linkName}.css`
     })       
@@ -59,7 +59,7 @@ themeTogglerButton.addEventListener('click', () => {
         themeLinks.forEach((themeLink) => {
             const href = themeLink.href
             console.log(href);
-            const linkName = href.slice(39, -4);
+            const linkName = href.slice(50, -4);
             console.log(linkName);
             
             themeLink.href= `../stylesheets/default/${linkName}.css`            
