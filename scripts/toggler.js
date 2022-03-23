@@ -28,7 +28,7 @@ if (currentTheme === 'true') {
 }else{
     themeLinks.forEach((themeLink) => {
         const href = themeLink.href
-        const linkName = href.slice(42, -4);
+        const linkName = href.slice(53, -4);
         console.log(href, linkName)
         themeLink.href= `../stylesheets/default/${linkName}.css`
     })
