@@ -29,7 +29,7 @@ if (currentTheme === 'true') {
     themeLinks.forEach((themeLink) => {
         const href = themeLink.href
         const linkName = href.slice(42, -4);
-        
+        console.log(href, linkname)
         themeLink.href= `../stylesheets/default/${linkName}.css`
     })
     console.log('put light theme');
